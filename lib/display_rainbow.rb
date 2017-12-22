@@ -1,6 +1,4 @@
-require 'pry'
 def display_rainbow(colors)
-  binding.pry
   red = "R: red"
   orange = "O: orange"
   yellow = "Y: yellow"

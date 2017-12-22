@@ -1,13 +1,11 @@
 def display_rainbow(colors)
-  red = "R: red"
-  orange = "O: orange"
-  yellow = "Y: yellow"
-  green = "G: green"
-  blue = "B: blue"
-  indigo = "I: indigo"
-  violet = "V: violet"
-  #{}"R: #{red}, O: #{{orange}}""
+  red = "red"
+  orange = "orange"
+  yellow = "yellow"
+  green = "green"
+  blue = "blue"
+  indigo = "indigo"
+  violet = "violet"
   colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-  puts colors
+  print "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
-display_rainbow

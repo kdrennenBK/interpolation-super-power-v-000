@@ -1,4 +1,5 @@
 def display_rainbow(colors)
+  binding.pry
   red = "R: red"
   orange = "O: orange"
   yellow = "Y: yellow"
@@ -6,6 +7,7 @@ def display_rainbow(colors)
   blue = "B: blue"
   indigo = "I: indigo"
   violet = "V: violet"
+  #{}"R: #{red}, O: #{{orange}}""
   colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
   puts colors
 end

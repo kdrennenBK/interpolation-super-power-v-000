@@ -7,6 +7,6 @@ def display_rainbow(colors)
   indigo = "I: indigo"
   violet = "V: violet"
   colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-  print colors
+  puts colors
 end
 display_rainbow
